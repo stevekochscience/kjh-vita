@@ -13,3 +13,5 @@ I'm new to latex (and fairly new to unix, so here are some newbie instructions f
     sudo apt-get install texlive-xetex
 
 3. Get the version control files from CTAN: http://www.ctan.org/tex-archive/support/vc . Follow instructions in the PDF manual.  E.g., if using git, copy the two files, vc an vc-git.awk to your project directory.
+
+4. SCRATCH THE ABOVE -- Upgraded to Ubuntu 12.04 LTS.  Will determine later if this solved the latex problems
