@@ -79,7 +79,7 @@
 \usepackage{xunicode}
 
 %% color for the links 
-\usepackage[usenames,dvipsnames]{color}
+\usepackage[usenames,dvipsnames]{xcolor}
 
 %% hyperlinks
 \usepackage[xetex, 
@@ -104,9 +104,9 @@
 %% Pragmata is available to buy at http://www.fsd.it/fonts/pragma.htm
 %% and is worth every penny. Any good monospace font will work fine, though.
 %% Consolas or inconsolata are good alternatives.
-\setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Minion Pro} 
-\setsansfont[Mapping=tex-text,Colour=AA0000]{Myriad Pro}
-\setmonofont[Mapping=tex-text,Scale=0.9]{Pragmata} 
+%% \setromanfont[Mapping={tex-text},Numbers={OldStyle},Ligatures={Common}]{Minion Pro} 
+%% \setsansfont[Mapping=tex-text,Colour=AA0000]{Myriad Pro}
+%% \setmonofont[Mapping=tex-text,Scale=0.9]{Pragmata} 
 
 
 %%%------------------------------------------------------------------------
@@ -122,7 +122,8 @@
 
 
 %% custom ampersand (font consistent with the one chosen above)
-\newcommand{\amper}{{\fontspec[Scale=.95,Colour=AA0000]{Minion Pro Medium}\selectfont\&\,}}
+%% 
+%% \newcommand{\amper}{{\fontspec[Scale=.95,Colour=AA0000]{Minion Pro Medium}\selectfont\&\,}}
 
 %% No bullets on labels
 \renewcommand{\labelitemi}{~} 
